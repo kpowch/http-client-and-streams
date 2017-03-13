@@ -12,7 +12,7 @@ var callback = function(response) {
   response.on('data', function(chunk) {
     console.log('[-- CHUNK OF LENGTH ' + chunk.length + '--]');
     console.log(chunk.toString());
-  })
+  });
 };
 
 console.log('About to make the request');
